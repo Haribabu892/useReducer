@@ -1,12 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import GloballyContext from "./GlobalContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(
-  <GloballyContext>
-    <App />
-  </GloballyContext>
-);
+root.render(<App />);
